@@ -1,0 +1,112 @@
+fonts = [
+    "/usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf",
+    "/usr/share/fonts/truetype/liberation/LiberationSansNarrow-Regular.ttf",
+    "/usr/share/fonts/truetype/liberation/LiberationSerif-Regular.ttf",
+    "/usr/share/fonts/truetype/liberation/LiberationSans-Italic.ttf",
+    "/usr/share/fonts/truetype/liberation/LiberationSansNarrow-Italic.ttf",
+    "/usr/share/fonts/truetype/liberation/LiberationSerif-Italic.ttf",
+    "/usr/share/fonts/truetype/liberation/LiberationSans-BoldItalic.ttf",
+    "/usr/share/fonts/truetype/liberation/LiberationSansNarrow-BoldItalic.ttf",
+    "/usr/share/fonts/truetype/liberation/LiberationSerif-BoldItalic.ttf",
+    "/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf",
+    "/usr/share/fonts/truetype/liberation/LiberationSansNarrow-Bold.ttf",
+    "/usr/share/fonts/truetype/liberation/LiberationSerif-Bold.ttf"
+]
+
+font_sizes = [
+    20,
+    24,
+    28,
+    32
+]
+
+apply_rotation = true
+apply_blur = false
+width_padding_factor = 0.25
+height_padding_factor = 0.25
+
+[[backgrounds]]
+color = "#000000"
+path = ""
+is_dark = true
+
+[[backgrounds]]
+color = "#FFFFFF"
+path = ""
+is_dark = false
+
+[[backgrounds]]
+color = ""
+path = "/path/to/some/image.jpeg"
+is_dark = true
+
+[[backgrounds]]
+color = ""
+path = "/path/to/another/image.jpeg"
+is_dark = false
+
+[[character_maps]]
+scoped_character = "Æ"
+word_list = [
+    # Danish words with 'Æ' as the leading character
+    "Æble", "Ærte", "Æske", "Ædel", "Æg", "Ægte", "Ældste", "Ærgerlig", "Æterisk", "Ængstelig",
+    
+    # Norwegian words with 'Æ' as the leading character
+    "Ære", "Æsj", "Ætt", "Ærefull", "Ærlig", "Ærespris", "Ættling", "Æresmedlem", "Æresrund", "Æresbevis"
+]
+
+[[character_maps]]
+scoped_character = "æ"
+word_list = [
+    # Danish words with 'æ' inside the word
+    "Bær", "Læse", "Tæppe", "Kæde", "Lærer", "Værelse", "Skæbne", "Lænestol", "Tærte", "Kærlig",
+    
+    # Norwegian words with 'æ' inside the word
+    "Kjære", "Lærebok", "Skjære", "Lærd", "Tjære", "Kjærlig"
+]
+
+[[character_maps]]
+scoped_character = "Ø"
+word_list = [
+    # Danish words with 'Ø' as the leading character
+    "Ørn", "Øje", "Øl", "Østers", "Øvelse", "Ødelagt", "Økonomi", "Ønske", "Ørken", "Øjeblik",
+    
+    # Norwegian words with 'Ø' as the leading character
+    "Ødeleggende", "Øyenvitne", "Øyeblikkelig", "Økonomisk", "Ørering", "Øvelseskjøring", "Ørret", "Øyeblikksbilde", "Øyeblikksro"
+]
+
+[[character_maps]]
+scoped_character = "ø"
+word_list = [
+    # Danish words with 'ø' inside the word
+    "Køkken", "Søvn", "Høne", "Løve", "Søster", "Købe", "Højde", "Løn", "Sømand",
+    
+    # Norwegian words with 'ø' inside the word
+    "Børnehage", "Kjøleskap", "Sølv", "Høflig", "Løfte", "Sølvskje", "Kjøretøy", "Høytid", "Lønn"
+]
+
+[[character_maps]]
+scoped_character = "Å"
+word_list = [
+    # Danish words with 'Å' as the leading character
+    "År", "Ål", "Åben", "Ånd", "Årsag", "Åbning", "Åsyn", "Årvågen", "Åse", "Åndelig",
+    
+    # Norwegian words with 'Å' as the leading character
+    "Årstid", "Åndedrag", "Årvåkenhet", "Åpningstid", "Åndssvak", "Årsregnskap", "Åndedrett", "Åpent", "Årsfest", "Åndemaner",
+    
+    # Swedish words with 'Å' as the leading character
+    "Ångra", "Återvända", "Återse", "Återuppleva", "Återvinna", "Återge", "Återgå", "Återkomma", "Återuppstå", "Återupprepa"
+]
+
+[[character_maps]]
+scoped_character = "å"
+word_list = [
+    # Danish words with 'å' inside the word
+    "Gård", "Kål", "Sådan", "Blå", "Skål", "Mål", "Råd", "Våben", "Låge", "Såning",
+    
+    # Norwegian words with 'å' inside the word
+    "Gårdsplass", "Kålsalat", "Såingstid", "Blåbær", "Skånsom", "Målrettet", "Rådgiver", "Vådeskudd", "Låsesmed", "Sånnhet",
+    
+    # Swedish words with 'å' inside the word
+    "Gårdsbutik", "Kålpudding", "Sånglektion", "Blåmes", "Skåp", "Måltid", "Rådsmedlem", "Våning", "Låssmed", "Sångtext"
+]
